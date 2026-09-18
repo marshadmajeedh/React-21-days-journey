@@ -1,0 +1,201 @@
+# ==============================================================================
+# Environment & Secrets (NEVER COMMIT SENSITIVE DATA)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+credentials.json
+secrets/
+
+# ==============================================================================
+# Operating System Artifacts
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~
+.directory
+.fuse_hidden*
+.Trash-*
+
+# ==============================================================================
+# IDEs and Editors
+# ==============================================================================
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (IntelliJ, WebStorm, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+tmp/
+
+# Sublime Text, Vim, Emacs
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+
+# ==============================================================================
+# Node.js & Web Development
+# ==============================================================================
+node_modules/
+jspm_packages/
+.npm/
+.yarn/cache/
+.pnp/
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs & caches
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.turbo/
+coverage/
+.nyc_output/
+
+# ==============================================================================
+# Java & JVM (Maven, Gradle, Spring)
+# ==============================================================================
+*.class
+*.war
+*.ear
+*.nar
+*.jar
+!src/*/libs/*.jar
+
+# Build tool caches and outputs
+target/
+.gradle/
+build/
+bin/
+.spring-boot-devtools.properties
+
+# ==============================================================================
+# Python
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ==============================================================================
+# C, C++, and Rust
+# ==============================================================================
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+target/
+Cargo.lock
+
+# ==============================================================================
+# C# and .NET
+# ==============================================================================
+bin/
+obj/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.visualstudio/
+TestResults/
+[Dd]ebug/
+[Rr]elease/
+
+# ==============================================================================
+# Databases, Logs & Miscellaneous
+# ==============================================================================
+*.log
+logs/
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.tmp
+*.temp
+*.bak
+*.orig
